@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.dark .editor-wrapper {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.dark .toolbar-btn {
+  color: #ffffff;
+}
+
+.dark .toolbar-btn:hover {
+  background-color: #374151;
+}
